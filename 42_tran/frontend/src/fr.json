@@ -1,0 +1,12 @@
+{
+    "navbar": {
+      "game": "Jeu",
+      "leaderboard": "Classement",
+      "settings": "Paramètres",
+      "login": "Connexion"
+    },
+    "game": {
+      "title": "Laissez-vous guider par le jeu"
+    }
+  }
+  

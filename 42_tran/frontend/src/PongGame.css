@@ -1,0 +1,12 @@
+canvas {
+    background: #000;
+    display: block;
+    margin: auto;
+  }
+  div {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  

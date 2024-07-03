@@ -1,0 +1,57 @@
+@import 'variables';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  height: 100%;
+}
+
+body.light {
+  background-color: $light-background;
+  color: $light-text;
+}
+body.dark {
+  background-color: $dark-background;
+  color: $dark-text;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+// Responsive
+
+@media (max-width: 768px) {
+  .navbar-custom {
+    padding: 0.5rem;
+  }
+
+  .main-content {
+    padding: 0.5rem;
+  }
+}
+
+//GAME 
+.reduced-image {
+  max-width: 80%; /* La largeur maximale est définie à 100% de son contenant */
+  height: auto; /* La hauteur est ajustée automatiquement pour maintenir le ratio d'aspect */
+}

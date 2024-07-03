@@ -1,0 +1,73 @@
+@import 'variables';
+
+// HOME
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.home-container h1, .home-container h2, .home-container h3{
+  font-size: 3rem;
+  color: $primary-color;
+  margin: 2rem 0;
+}
+
+.home-container h4, .home-container h5, .home-container h6 {
+  font-size: 2rem;
+  color: $primary-color;
+  margin: 2rem 0;
+}
+
+// Navbar
+.navbar-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  z-index: -1;
+}
+
+/* Add additional styling to push content down when navbar is open */
+.navbar-collapse.show ~ .navbar-backdrop {
+  z-index: 10;
+  height: 100vh;
+}
+
+.navbar-nav .nav-link:hover {
+  color: $primary-color; 
+}
+
+// Settings
+.home-container h2 {
+  font-size: 2rem;
+  color: $primary-color;
+  margin: 2rem 0;
+}
+
+.labels {
+  font-size: 1rem;
+  color: $primary-color;
+  margin: 2rem 0;
+}
+
+// Leaderboard
+.container {
+  max-width: 100%;
+}
+
+.wrap {
+  max-width: 100%;
+}
+
+.table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.table td, .table th {
+  padding: 0.5rem;
+}

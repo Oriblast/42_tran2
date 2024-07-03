@@ -1,0 +1,12 @@
+{
+    "navbar": {
+      "game": "Game",
+      "leaderboard": "Leaderboard",
+      "settings": "Settings",
+      "login": "Login"
+    },
+    "game": {
+      "title": "Let the game guide you"
+    }
+  }
+  
